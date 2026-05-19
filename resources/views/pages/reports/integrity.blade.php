@@ -1,5 +1,4 @@
-// FIXME
-{{-- @extends('layouts.app')
+@extends('layouts.app')
 
 @section('title', 'Integritas Data - JayMart')
 @section('page-title', 'Laporan Integritas Data')
@@ -90,4 +89,4 @@
         </table>
     </div>
 </div>
-@endsection --}}
+@endsection 

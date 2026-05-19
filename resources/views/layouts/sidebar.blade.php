@@ -40,12 +40,11 @@
                 <a href="{{ route('reports.stock') }}" class="flex items-center px-4 py-3 text-sm text-gray-200 rounded-lg nav-hover {{ request()->routeIs('reports.stock') ? 'nav-active' : '' }}">
                     <i class="fas fa-clipboard-list w-5 mr-3"></i> Laporan Stok
                 </a>
-                // FIXME
-                {{-- <a href="{{ route('reports.integrity') }}" class="flex items-center px-4 py-3 text-sm text-gray-200 rounded-lg nav-hover {{ request()->routeIs('reports.integrity') ? 'nav-active' : '' }}">
+                <!-- FIXME: Tidak digunakan karena masih error -->
+                <a href="{{ route('reports.integrity') }}" class="flex items-center px-4 py-3 text-sm text-gray-200 rounded-lg nav-hover {{ request()->routeIs('reports.integrity') ? 'nav-active' : '' }}">
                     <i class="fas fa-shield-alt w-5 mr-3"></i> Integritas Data
                     @php $intCount = \App\Models\Product::count(); @endphp
-                </a> --}}
-                // FIXME
+                </a>
             </div>
             <div class="pt-3 mt-3 border-t border-white border-opacity-10">
                 <p class="px-4 text-xs text-blue-300 uppercase tracking-wider mb-2">Pengaturan</p>
