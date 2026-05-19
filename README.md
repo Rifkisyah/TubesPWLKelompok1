@@ -39,6 +39,10 @@ npm install
 php artisan migrate
 php artisan db:seed
 ```
+or
+```
+php artisan migrate:fresh --seed
+```
 
 5. Run your Localhost for database access 
 
